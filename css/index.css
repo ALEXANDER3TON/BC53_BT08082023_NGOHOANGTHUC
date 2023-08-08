@@ -1,0 +1,40 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 0.94rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #fea200 0, #ff7c00 51%, #b20093 100%);
+    background-size: 200%;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    border-radius: 5px;
+    color: blue;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+button:hover{
+    background-position: center;
+}
+
+.BT1,
+.BT2,
+.BT3,
+.BT4,
+.BT5 {
+    padding: 50px 0;
+}
+
+.form-group input{
+    width: 40%;
+}
