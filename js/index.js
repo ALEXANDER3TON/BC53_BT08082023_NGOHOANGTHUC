@@ -93,7 +93,12 @@ document.getElementById('hanlNumber').onclick = function () {
     var number = +document.getElementById('number').value;
     var unit = Math.floor(number % 10)
     var ten = Math.floor(number / 10)
-    var tong = unit + ten
+    var tong;
+    if (number >=10 && number <100) {
+        tong =unit + ten
+    } else {
+        tong = "Vui lòng nhập số có 2 chữ số"
+    }
     document.getElementById('resultNumber').innerHTML = ` Tổng 2 ký số: ${tong}`
 }
 // B3: in ra kết quả
